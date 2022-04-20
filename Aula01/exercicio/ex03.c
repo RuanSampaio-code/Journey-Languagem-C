@@ -1,4 +1,6 @@
-﻿int main(int argc, char const *argv[])
+﻿//programa de um numero ao quadrado
+
+int main(int argc, char const *argv[])
 {
 //delaração de variaveis    
 int num;
