@@ -20,7 +20,32 @@ mediari =(nt1+nt2+nt3)/3;
 printf("Sua media e %0.2f", mediari);
 
 //estruturas concionias
-if (mediari>=9 || mediari<=10)
+if (nt1 >10 || nt2 > 10 || nt3>10 ){
+    printf("Valores invalidos para as notas");
+}
+else;
+
+
+if (mediari>=9 && mediari<=10){
     printf("\nConceito A");
+
+    }
+else;
+
+if (mediari>=7 && mediari<=8.9){
+    printf("\nConceito B");
+    }
+else;    
+
+if (mediari>=5 && mediari<=6.9){
+    printf("\nConceito C");
+    }
+else;
+
+if (mediari>=0 && mediari<=4.9){
+    printf("\nConceito D");
+    }
+else;    
+
     return 0;
 }
