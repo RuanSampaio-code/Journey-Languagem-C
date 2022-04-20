@@ -13,7 +13,7 @@ printf( "Digite a 2ª nota:  ");
 scanf("%f", &b);
 
 printf( "Digite a 3ª nota: ");
-scanf(" %f", &c); // adicionar espaço na função scanf
+scanf("%f", &c); // adicionar espaço na função scanf
 
 media = (a+b+c)/3;
 
