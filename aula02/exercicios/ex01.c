@@ -21,7 +21,7 @@ printf("Sua media e %0.2f", mediari);
 
 //estruturas concionias
 if (nt1 >10 || nt2 > 10 || nt3>10 ){
-    printf("Valores invalidos para as notas");
+    printf("\nValores invalidos para as notas");
 }
 else;
 
