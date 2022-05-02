@@ -32,14 +32,24 @@
     //taboada
 int main(int argc, char const *argv[])
 {
-    int num =0;
+    int num;
     int i=0;
-    printf("digite um numero: ");
-    scanf("d",&num);
-    while (num<=10)
+    int n=0;
+    
+
+    printf ("digite um numero: ");
+    scanf("%d", &num);
+    while (n<=num)
     {
-    printf("%d * %d = %d", i ,i++, i*i++);
+        while (i<=10)
+    {
+        printf(" %d*%d = %d\n",num,i, num*i);
+        i++;
     }
+    i++;        
+    }
+    
+    
     return 0;
  }
     
