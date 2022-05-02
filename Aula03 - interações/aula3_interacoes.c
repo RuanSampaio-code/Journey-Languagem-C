@@ -42,10 +42,10 @@ int main(int argc, char const *argv[])
     while (n<=num)
     {
         while (i<=10)
-    {
+        {
         printf(" %d*%d = %d\n",num,i, num*i);
         i++;
-    }
+         }
     i++;        
     }
     
