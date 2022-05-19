@@ -5,17 +5,23 @@
 
 int main () {  
     char palavra[100];
-    int numvogais=0;
-    printf("Digite o nome:");  
-    scanf("%s",palavra);  
-    char vogais [] = {'A','a','E', 'e', 'I','i','O','o','U', 'u'};
+    int numvogais=0;  
+    char vogais [] = {'AaEeIiOoUu'};
 
+    printf("Digite o nome:");  
+    scanf("%s",palavra);
     for ( int i = 0; i < strlen(palavra); i++)
     {
-        if (palavra[i]==vogais[i])
+        for (int j = 0; j < strlen(vogais); j++)
         {
+            
+        if (palavra[i]==vogais[j])
+        
             numvogais++;
+        
+            
         }
+        
         
     }
     
