@@ -1,13 +1,15 @@
 ﻿//Prgrama de media artimetica:
 
+// declarando variaveis tipo flutuantes
 float a;
 float b;
 float c;
 float media;
 
+//função main
 int main() {
-printf( "Digite a 1ª nota: ");
-scanf("%f", &a);
+printf( "Digite a 1ª nota: "); // impriminndo
+scanf("%f", &a);// leitura
 
 printf( "Digite a 2ª nota:  ");
 scanf("%f", &b);

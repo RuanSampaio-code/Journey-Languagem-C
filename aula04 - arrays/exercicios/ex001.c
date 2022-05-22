@@ -31,7 +31,7 @@ return 0;
 
 int main () {  
 char nome[80];
-char vogais[] ={"aeiouAEIOU"};
+char vogais[] ={'a','e','i','o','u','A','E', 'I','O','U'};
 int cont=0;
 printf("Digite o nome:");  
 scanf("%s",nome);  
