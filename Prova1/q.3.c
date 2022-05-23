@@ -2,15 +2,15 @@
 
 int main()
 {
-int valores[9]; 
+char valores[9]; 
 int elemento;
 for ( elemento = 0; elemento < 9;elemento++){
-    if (elemento =0)
+    if (elemento ==0)
     { valores[elemento] = 'o'; }
     else
 
     if (elemento==2)
-    { valores[elemento] = '2'; }
+    { valores[elemento] = 'X'; }
     else
         
     if (elemento==4)
@@ -18,7 +18,7 @@ for ( elemento = 0; elemento < 9;elemento++){
     else
 
     if (elemento==8)
-    { valores[elemento] = 'x'; }
+    { valores[elemento] = 'X'; }
     else{ valores[elemento] = ' ' ; }
        
 }
