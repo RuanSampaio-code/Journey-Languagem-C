@@ -1,6 +1,6 @@
 ﻿//programa de um numero ao quadrado
-
-int main(int argc, char const *argv[])
+#include <stdio.h>
+int main()
 {
 //delaração de variaveis    
 int num;

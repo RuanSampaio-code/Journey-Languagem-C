@@ -26,12 +26,13 @@ int main () {
 printf("total de vogais: %d",numvogais);
 return 0;
   }*/
-  #include<stdio.h>
+
+#include<stdio.h>
 #include<string.h>
 
 int main () {  
 char nome[80];
-char vogais[] ={'a','e','i','o','u','A','E', 'I','O','U'};
+char vogais[] ={"aeiouAEIOU"};
 int cont=0;
 printf("Digite o nome:");  
 scanf("%s",nome);  

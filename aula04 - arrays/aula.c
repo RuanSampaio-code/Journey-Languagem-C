@@ -51,35 +51,53 @@ int main(int argc, char const *argv[])
 #include <stdio.h>
 
 int main(){
-    //declarrando matriz 2x2 e variaveis cluna e linha
+    //declarrando matriz 2x2 e variaveis coluna e linha
     int mat[2][2];
-    int linha, coluna ;
+    int linha, coluna;
     int maior;
+    int posicaomaior;
+
 
     printf("Digite os elementos de uma matriz:\n ");
     
-     for (linha=0; linha <2; linha++)
-         for(coluna =0; coluna<2; coluna++){
-             printf("\nElemento[%d][%d]: ", linha, coluna);
-             scanf("%d", &mat[linha][coluna]);
+     for (linha=0; linha <2; linha++) // laços for para linhas
+         for(coluna =0; coluna<2; coluna++){ // laço for para colunas
+             printf("\nElemento[%d][%d]: ", linha, coluna);// entrada de dados
+             scanf("%d", &mat[linha][coluna]); // leitura de daods
+          maior = mat[0][0]; // atrubui-se um valor para a variavel "maior" para fazer comparação
+          if (mat[linha][coluna]>maior) // condional caso
+          {
+              maior=mat[linha][coluna]; 
+              posicaomaior = mat[0][0];  
+          }
+           
          }
+
+printf("\n=====matriz imprimindo=====");
+for (linha=0; linha<2; linha++) 
+    for (coluna = 0; coluna < 2; coluna++)
+        {
+          printf("\nElemento na posicao [%d][%d] = %d", linha, coluna, mat[linha][coluna]);
+
+  
+        }
+          printf("\nEste e o maior numero da matriz: %d", maior);
+return 0;
+}
     //saida de dados e imprimindo matriz
-     printf("\n=====matriz imprimindo=====");
+     /*printf("\n=====matriz imprimindo=====");
      for (linha=0; linha<2; linha++) 
          for (coluna = 0; coluna < 2; coluna++)
          {
-             printf("\nElemento na posição [%d][%d] = %d", linha, coluna, mat[linha][coluna]);
-         }
-     // maior elemento
-    for (linha=0; linha <2; linha++)
-            for(coluna =0; coluna<2; coluna++){
-                maior =mat[0][0];
-               if (/* condition */)
-               {
-                   /* code */
-               }
-               
+            printf("\nElemento na posicao [%d][%d] = %d", linha, coluna, mat[linha][coluna]);
+            if (mat[linha][coluna]>maior)
+            {
+                maior = mat[linha][coluna];
             }
+            
+         }
+   
+        printf("\nEste e o maior numero da matriz: %d", maior);
         
 return 0;
 }
