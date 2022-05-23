@@ -22,9 +22,5 @@ if(num1==num2){
 else;
 
 
-//if (num2>num1 && num2>num3 && num3<num1 || num3>num1){
-  //  printf("os numeros em ordem crescente: %f, %f, %f",num3,num1,num2);    
-//}else;
-
     return 0;
 }
