@@ -19,19 +19,13 @@ for ( elemento = 0; elemento < 9;elemento++){
 
     if (elemento==8)
     { valores[elemento] = 'X'; }
-    else{ valores[elemento] = ' ' ; }
-       
+    else{ valores[elemento] = ' ' ; }   
 }
     
-
 printf("\n[%c][%c][%c]",valores[0], valores[1], valores[2]);
 printf("\n[%c][%c][%c]",valores[3], valores[4], valores[5]);
 printf("\n[%c][%c][%c]",valores[6], valores[7], valores[8]);
     
-    
-
-
-
     return 0;
 }
 

@@ -14,7 +14,6 @@ int main()
         scanf("%d", &vetor[i]);   
     }
 
-    
      printf("Digite um numero inteiro para verificar se pertence ao vetor: ");
      scanf("%d", &number1);
      printf("Digite um numero inteiro para verificar se pertence ao vetor: ");
@@ -26,23 +25,19 @@ int main()
         if (number1==vetor[i] && number2!=vetor[i])
          {
             printf("Apenas o primeiro numero pertence ao vetor. ");
-         }else;
+         }else
          
         if (number1!=vetor[i] && number2==vetor[i])
          {
             printf("Apenas o segundo numero pertence ao vetor. ");
-         }else;
+         }else
 
          if (number1==vetor[i] && number2==vetor[i])
          {
          printf("Os dois numeros pertecem ao vetor.");
          }else;
 
-      
-     
-
      }
-     
-
+    
     return 0;
 } 
