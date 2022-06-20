@@ -10,6 +10,22 @@ variável: variaável local e variável global.
 
 HEAP: variavel que pode ser alocada e desalocada pelo programador. so pode ser acessada pelo seu endereço.
 
-ALOCAÇÃO DINÂMICA: Espaço de 
+ALOCAÇÃO DINÂMICA: Espaço de memoria  
+
+BIBLIOTECA:
+<stdlib.h>
+ 
+FUNÇOES: 
+
+De alocação:
+malloc()
+calloc()
+realoc()
+
+desalocação:
+free()
+
 
 */
+
+//FUNÇÃO MALLOC() - ALOCA BLOCOS DE BYTE EM MEMORIA
