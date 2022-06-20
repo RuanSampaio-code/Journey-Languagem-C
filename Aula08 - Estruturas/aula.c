@@ -22,7 +22,8 @@ int main()
     scanf("%f", &aluno.nota2);
     float media;
     media = (aluno.nota1 + aluno.nota2)/2;
+    printf("Media: %f", media);
     return 0;
-    printf("media: %f", media);
+    
 }
 
