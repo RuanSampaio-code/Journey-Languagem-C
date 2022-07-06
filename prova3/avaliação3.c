@@ -27,7 +27,7 @@ void altera (struct Clientes *ped){
 
 void adcionar(struct Clientes ped){
     printf("\n ======Adicionando novo pedido=====");
-    printf("O que mais desejaria? ");
+    printf("\nO que mais desejaria? ");
     fgets(&pedido.prato,100,stdin);
     printf("Valor em reais: ");  
     scanf("%f", &pedido.valor);
@@ -56,14 +56,10 @@ int main()
         adcionar(pedido);
     else if (opcao ==3)
         printf("Pedido finalizado, Qual a forma de pagamento");
-        printf("Qual a forma de pagamento? \n(1) - cartão de débido \n(2) - Cartão de crédito \n(3) - Boleto/Dinheiro/Pix \n");
+        printf("Qual a forma de pagamento? \n(1) - Cartao de debido \n(2) - Cartao de credito \n(3) - Boleto/Dinheiro/Pix \n");
         scanf("%d", &pagamento);
         if ( pagamento==1 || pagamento==2 || pagamento==3)
             printf(" Pagamento realizado, Obrigado pela preferencia, Volte sempre!");
-            /* code */
-        
-        
-
     return 0;
 
 }
